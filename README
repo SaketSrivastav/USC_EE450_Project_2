@@ -1,0 +1,75 @@
+		README
+----------------------------------------
+
+========================================
+	Name  : Saketkumar Srivastav.
+	EE_450: Programming Project 2.
+	USC_ID: 8690250995
+========================================
+
+- Compiling Instructions:
+
+Extract tar file tar -zxvf EE_450_PP2_SAKET
+Compile : ./compile.sh
+
+
+Run: ./bootstrap_server
+
+Run: ./peer
+
+Run: ./content_provider
+     
+
+==========================================
+
+		Extra Credit
+
+==========================================
+
+Content provider and peers have been implemented using fork() API and therefore running simulteneously.
+
+Test: 
+Execution Order:
+
+./bootstrap_server
+./peer
+./content_provider
+
+Output:
+
+======================================
+Bootstrap Server:
+======================================
+Peer 1 Registration Successfull
+
+Peer 3 Registration Successfull
+
+Peer 4 Registration Successfull
+
+Peer 2 Registration Successfull
+
+Incoming Message From Provider1
+Provider1 Logged In Successfully
+Filename Sent
+
+Incoming Message From Provider2
+Provider2 Logged In Successfully
+Filename Sent
+
+======================================
+Peer:
+======================================
+Peer1 joined Group2
+
+Peer4 joined Group1
+
+Peer3 joined group 2
+
+Peer2 joined group 1
+
+======================================
+Provider:
+======================================
+Group -> 2 has 2 peers.
+
+Group -> 1 has 2 peers.
