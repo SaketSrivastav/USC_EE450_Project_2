@@ -2,14 +2,11 @@
 ----------------------------------------
 
 ========================================
-	Name  : Saketkumar Srivastav.
 	EE_450: Programming Project 2.
-	USC_ID: 8690250995
 ========================================
 
 - Compiling Instructions:
 
-Extract tar file tar -zxvf EE_450_PP2_SAKET
 Compile : ./compile.sh
 
 
